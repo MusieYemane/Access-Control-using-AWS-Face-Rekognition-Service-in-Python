@@ -5,8 +5,16 @@ In this project, we propose the use of facial recognition in access control syst
 
 How this project works:
 
-First, open Amazon Web Service Account so that you use Amazon face rekognition service, 
-which is extensively applied in this project. 
-In your account, go to user and try to add new policies, Rekognition full access and IAM user.
+First, create Amazon Web Service Account so that you have can access Amazon face rekognition service, which is extensively applied in this project. 
+In your aws account, go to user and add new policies, Rekognition full access and IAM user.
 
-Then, open admin_monitor.py in your favourite python editor and change the access_key_id and 
+Then, open admin_monitor.py in your favourite python editor and find variables access_key_id and secret_access_key. Replace the value of the r actual aws key and secret id, which you can get from your aws account. Do the same to the face_recognition_system.py.
+
+Finally, run admin_monitor.py using python3 and you will see a sign up page. Sign up and then log in. 
+
+After logging in, you have an admin access to the system. You can add people and their face image and label them as employee or blacklists.
+
+Then run face_recognition_system.py using python3. This will open a window which takes a real time video using your computer's camera. If a face is detected, then it compares it against the people you previously added and outputs either employee or blacklist if they are recognized, else it outputs unknown person.
+
+
+Enjoy! 

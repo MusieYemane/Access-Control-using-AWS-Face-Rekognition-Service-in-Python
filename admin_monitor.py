@@ -13,8 +13,8 @@ import _sqlite3
 ### Before running this code, create an amazone account user and get the aws secret key and access key id.
 ###And also go to aws users--> add permissions--> add AmazoneS3Fullaccess and AmazonRekognitionFullAccess and IAMUserChanegePassword permissions
 
-access_key_id = 'AKIA4GWCL3QRXRBFSUVJ' ##Enter your AWS access key id here for ex. 'AKIL4GOQL&QREDSFFUTQT'
-secret_access_key = 'QS5R/xw5zdZ2bcXebz2ZYyEEQlmqdEibrzyn2S2l' ##Enter your AWS Secret access key here ex.'QS5W/xw5zdM6bcZwbz2ZYyLLQlmqdEibQIyn4L87'
+access_key_id = '**************' ##Enter your AWS access key id here for ex. 'AKIL4GOQL&QREDSFFUTQT'
+secret_access_key = '*****************' ##Enter your AWS Secret access key here ex.'QS5W/xw5zdM6bcZwbz2ZYyLLQlmqdEibQIyn4L87'
 
 # create a database or connect to one
 

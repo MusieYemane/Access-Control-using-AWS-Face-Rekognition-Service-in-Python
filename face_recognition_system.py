@@ -12,8 +12,9 @@ import boto3
 #     for line in reader:
 #         access_key_id=line[2]
 #         secret_access_key=line[3]
-access_key_id='AKIA4GWCL3QRXRBFSUVJ'
-secret_access_key='QS5R/xw5zdZ2bcXebz2ZYyEEQlmqdEibrzyn2S2l'
+access_key_id = '**************' ##Enter your AWS access key id here for ex. 'AKIL4GOQL&QREDSFFUTQT'
+secret_access_key = '*****************' ##Enter your AWS Secret access key here ex.'QS5W/xw5zdM6bcZwbz2ZYyLLQlmqdEibQIyn4L87'
+
 
 tempUser= open('tempUser', 'r')
 col_id= tempUser.read()
